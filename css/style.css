@@ -1,0 +1,225 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+/* font-family: 'DM Sans', sans-serif;
+	font-family: 'Mulish', sans-serif; */
+
+/*---------- General ----------*/
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+	max-width: 1070px;
+	margin: 0 auto;
+}
+/*---------- Header ---------*/
+.header{
+	background: rgba(255, 113, 67, 0.27);
+	padding: 38px 0 48px;
+}
+
+.header__flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__li{
+	display: inline-block;
+}
+
+.nav__li:not(:first-of-type){
+	margin-left: 49px;
+}
+
+.nav__link{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.468947px;
+	color: #696871;
+}
+
+.nav__link:hover{
+	color: #19191B;
+	transition: 300ms;
+}
+
+.button{
+	width: 212px;
+	height: 60px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.531474px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button__orange{
+	background: #FF7143;
+}
+.button__orange:hover{
+	background: #f1835f;
+	transition: 500ms;
+}
+
+
+/*--------- Section About ---------*/
+
+.about{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	margin: 105px auto 85px;
+}
+.about__item{
+	flex: 1 0 auto;
+}
+.about__title{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 77px;
+	letter-spacing: -2.50105px;
+	color: #19191B;
+	max-width: 467px;
+	margin-bottom: 30px;
+}
+
+.about__text{
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: -0.625263px;
+	color: #696871;
+	max-width: 464px;
+	margin-bottom: 50px;
+}
+
+.btn__blue{
+	background: #5454D4;
+}
+
+.btn__blue:hover{
+	background: #7474da;
+	transition: 500ms;
+}
+
+.btn__ligth{
+	color: #5454D4;
+	border: 1px solid #5454D4;
+	margin-left: 35px;
+}
+.btn__ligth:hover{
+	background: #c4c4dd;
+	transition: 500ms;
+}
+
+
+/*--------- Section Subscription ---------*/
+
+.subscription{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 85px auto;
+}
+.subscription__title{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 57px;
+	letter-spacing: -1.56316px;
+	color: #19191B;
+	margin-bottom: 38px;
+}
+
+.subscripton__input{
+	border: 1px solid #7087FF;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 10px;
+
+	height: 60px;
+	max-width: 302px;
+
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: -0.531474px;
+	color: #000000;
+	padding-left: 10px;
+}
+
+.btn__subscription{
+	background: #5454D4;
+	margin-left: 39px;
+}
+
+.btn__subscription:hover{
+	background: #7474da;
+	transition: 500ms;
+}
+
+/*---------- Footer ----------*/
+
+
+.footer{
+	background: rgba(255, 113, 67, 0.27);
+	padding: 53px 0;
+}
+
+.footer__flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.footer__li{
+	display: inline-block;
+	margin-left: 49px;
+}
+
+.footer__link{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.468947px;
+	color: #696871;
+}
+.footer__link:hover{
+	color: #19191B;
+	transition: 300ms;
+}
